@@ -13,3 +13,8 @@ tmp/
 *.jpeg
 .DS_Store
 agent-ui/node_modules/
+node_modules/
+.venv/
+.git/
+__pycache__/
+*.log

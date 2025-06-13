@@ -1,2 +1,3 @@
 flask
 agno[playground]
+openai
