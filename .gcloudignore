@@ -1,20 +1,69 @@
-.git
+# .gcloudignore — optimizado para evitar timeout y errores de subida
+
+# Git y configuración
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Python
 __pycache__/
-*.pyc
-node_modules/
+*.py[cod]
+*.pyo
 *.log
+*.sqlite3
+*.db
+*.db-journal
+*.ipynb
+.venv/
+env/
+venv/
+
+# Node
+node_modules/
+agent-ui/node_modules/
+
+# Archivos binarios y grandes
 *.zip
 *.tar
-tmp/
-.vscode/
-*.md
+*.tar.gz
+*.rar
+*.7z
+*.gz
+
+# Multimedia
 *.png
 *.jpg
 *.jpeg
-.DS_Store
-agent-ui/node_modules/
-node_modules/
-.venv/
-.git/
-__pycache__/
-*.log
+*.svg
+*.webp
+*.mp4
+*.webm
+*.mov
+*.mkv
+*.avi
+*.wav
+*.mp3
+
+# Modelos y data
+*.pt
+*.pth
+*.h5
+*.pkl
+*.ckpt
+*.onnx
+*.joblib
+*.csv
+*.tsv
+*.xlsx
+*.xls
+datasets/
+data/
+tmp/
+logs/
+
+# Documentación
+*.md
+*.pdf
+README*
+LICENSE*
